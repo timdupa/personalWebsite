@@ -1,18 +1,71 @@
-.sidebar {
-    background-color: #9CB7A5;
-    position: fixed;
-    z-index: 1;
+.sidebar{
     height: 100%;
     width: 20%;
+    position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     overflow-x: hidden;
-}  
-
-.liLink {
-    padding: 25px;
-}  
-
+    padding-top: 20px;
+    background-color: #2a2a2a;
+}
+.main{
+   margin-left:23%; 
+   background-color: #2a2a2a;
+}
+.page {
+    height: 100%;
+    border-bottom: solid 1px white;
+}
+.sbXtras {
+    box-shadow: 10px 2px 1px rgba(0, 0, 255, .2);
+    width:20%;
+}
+.nav-link{
+    color: white;
+    text-align: center;
+}
+.nav-link:hover{
+    background-color:white;
+    color: #2a2a2a;
+}
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+p, h1, strong {
+    color: white;
+}
+.logo {
+    max-width: 10%;
+    width: auto;
+    height: auto;
+    margin: 2%;
+}
+.shadow img:last-child{
+    display:none
+}
+.shadow:hover img:first-child{
+    display:none
+}
+.shadow:hover img:last-child{
+    display:inline-block
+}
 .headshot{
+    text-align:center;
+    width: 75%;
     border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+}
+.cP{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+.aP{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%
 }
